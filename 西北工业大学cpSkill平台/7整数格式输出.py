@@ -1,0 +1,5 @@
+a = int(input())
+print("{:<10d}".format(a))
+print("{:>10d}".format(a))
+print("{:<+10d}".format(abs(a)))
+print("{:>+10d}".format(abs(a)))
